@@ -23,6 +23,8 @@
 		2F4E13D425ED81CB0061F1B7 /* Place+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4E13D025ED81CB0061F1B7 /* Place+CoreDataProperties.swift */; };
 		2F4E13D525ED81CB0061F1B7 /* Note+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4E13D125ED81CB0061F1B7 /* Note+CoreDataClass.swift */; };
 		2F4E13D625ED81CB0061F1B7 /* Note+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4E13D225ED81CB0061F1B7 /* Note+CoreDataProperties.swift */; };
+		2F4E13D925ED836D0061F1B7 /* PreloadedData.json in Resources */ = {isa = PBXBuildFile; fileRef = 2F4E13D825ED836D0061F1B7 /* PreloadedData.json */; };
+		2FF39B4A25EEB56800971971 /* PlaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF39B4925EEB56800971971 /* PlaceTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		2F4E13D025ED81CB0061F1B7 /* Place+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Place+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		2F4E13D125ED81CB0061F1B7 /* Note+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataClass.swift"; sourceTree = "<group>"; };
 		2F4E13D225ED81CB0061F1B7 /* Note+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		2F4E13D825ED836D0061F1B7 /* PreloadedData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PreloadedData.json; sourceTree = "<group>"; };
+		2FF39B4925EEB56800971971 /* PlaceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,7 @@
 		2F4E13B925ED729D0061F1B7 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2FF39B4925EEB56800971971 /* PlaceTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -133,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				2F4E13A925ED72770061F1B7 /* CWC_Guidebook_App_CoreData.xcdatamodeld */,
+				2F4E13D825ED836D0061F1B7 /* PreloadedData.json */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -202,6 +208,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F4E13D925ED836D0061F1B7 /* PreloadedData.json in Resources */,
 				2F4E13B025ED72790061F1B7 /* LaunchScreen.storyboard in Resources */,
 				2F4E13AD25ED72790061F1B7 /* Assets.xcassets in Resources */,
 				2F4E13A825ED72770061F1B7 /* Main.storyboard in Resources */,
@@ -218,6 +225,7 @@
 				2F4E13A525ED72770061F1B7 /* ViewController.swift in Sources */,
 				2F4E13A125ED72770061F1B7 /* AppDelegate.swift in Sources */,
 				2F4E13AB25ED72770061F1B7 /* CWC_Guidebook_App_CoreData.xcdatamodeld in Sources */,
+				2FF39B4A25EEB56800971971 /* PlaceTableViewCell.swift in Sources */,
 				2F4E13D625ED81CB0061F1B7 /* Note+CoreDataProperties.swift in Sources */,
 				2F4E13BF25ED740E0061F1B7 /* PlaceViewController.swift in Sources */,
 				2F4E13C825ED77900061F1B7 /* NotesViewController.swift in Sources */,
