@@ -15,6 +15,7 @@ class Constants {
     static var INFO_VIEWCONTROLLER = "InfoVC"
     static var MAP_VIEWCONTROLLER = "MapVC"
     static var NOTES_VIEWCONTROLER = "NotesVC"
+    static var ADD_NOTES_VIEWCONTROLLER = "AddNoteVC"
     
     static var PLACE_CELL = "PlaceCell"
 }

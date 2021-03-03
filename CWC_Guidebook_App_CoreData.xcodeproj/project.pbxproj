@@ -19,11 +19,12 @@
 		2F4E13C525ED77710061F1B7 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4E13C425ED77710061F1B7 /* MapViewController.swift */; };
 		2F4E13C825ED77900061F1B7 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4E13C725ED77900061F1B7 /* NotesViewController.swift */; };
 		2F4E13CC25ED794B0061F1B7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4E13CB25ED794B0061F1B7 /* Constants.swift */; };
-		2F4E13D325ED81CB0061F1B7 /* Place+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4E13CF25ED81CB0061F1B7 /* Place+CoreDataClass.swift */; };
-		2F4E13D425ED81CB0061F1B7 /* Place+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4E13D025ED81CB0061F1B7 /* Place+CoreDataProperties.swift */; };
-		2F4E13D525ED81CB0061F1B7 /* Note+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4E13D125ED81CB0061F1B7 /* Note+CoreDataClass.swift */; };
-		2F4E13D625ED81CB0061F1B7 /* Note+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4E13D225ED81CB0061F1B7 /* Note+CoreDataProperties.swift */; };
 		2F4E13D925ED836D0061F1B7 /* PreloadedData.json in Resources */ = {isa = PBXBuildFile; fileRef = 2F4E13D825ED836D0061F1B7 /* PreloadedData.json */; };
+		2F9AD26625F0472400418680 /* Note+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9AD26225F0472400418680 /* Note+CoreDataClass.swift */; };
+		2F9AD26725F0472400418680 /* Note+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9AD26325F0472400418680 /* Note+CoreDataProperties.swift */; };
+		2F9AD26825F0472400418680 /* Place+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9AD26425F0472400418680 /* Place+CoreDataClass.swift */; };
+		2F9AD26925F0472400418680 /* Place+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9AD26525F0472400418680 /* Place+CoreDataProperties.swift */; };
+		2F9AD26D25F047A500418680 /* AddNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9AD26C25F047A500418680 /* AddNoteViewController.swift */; };
 		2FF39B4A25EEB56800971971 /* PlaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF39B4925EEB56800971971 /* PlaceTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -42,11 +43,12 @@
 		2F4E13C425ED77710061F1B7 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		2F4E13C725ED77900061F1B7 /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
 		2F4E13CB25ED794B0061F1B7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		2F4E13CF25ED81CB0061F1B7 /* Place+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Place+CoreDataClass.swift"; sourceTree = "<group>"; };
-		2F4E13D025ED81CB0061F1B7 /* Place+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Place+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		2F4E13D125ED81CB0061F1B7 /* Note+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataClass.swift"; sourceTree = "<group>"; };
-		2F4E13D225ED81CB0061F1B7 /* Note+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		2F4E13D825ED836D0061F1B7 /* PreloadedData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PreloadedData.json; sourceTree = "<group>"; };
+		2F9AD26225F0472400418680 /* Note+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2F9AD26325F0472400418680 /* Note+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		2F9AD26425F0472400418680 /* Place+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Place+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2F9AD26525F0472400418680 /* Place+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Place+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		2F9AD26C25F047A500418680 /* AddNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteViewController.swift; sourceTree = "<group>"; };
 		2FF39B4925EEB56800971971 /* PlaceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,6 +104,7 @@
 				2F4E13C125ED77590061F1B7 /* InfoViewController.swift */,
 				2F4E13C425ED77710061F1B7 /* MapViewController.swift */,
 				2F4E13C725ED77900061F1B7 /* NotesViewController.swift */,
+				2F9AD26C25F047A500418680 /* AddNoteViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -117,10 +120,10 @@
 		2F4E13BA25ED72A70061F1B7 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				2F4E13CF25ED81CB0061F1B7 /* Place+CoreDataClass.swift */,
-				2F4E13D025ED81CB0061F1B7 /* Place+CoreDataProperties.swift */,
-				2F4E13D125ED81CB0061F1B7 /* Note+CoreDataClass.swift */,
-				2F4E13D225ED81CB0061F1B7 /* Note+CoreDataProperties.swift */,
+				2F9AD26225F0472400418680 /* Note+CoreDataClass.swift */,
+				2F9AD26325F0472400418680 /* Note+CoreDataProperties.swift */,
+				2F9AD26425F0472400418680 /* Place+CoreDataClass.swift */,
+				2F9AD26525F0472400418680 /* Place+CoreDataProperties.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -222,18 +225,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F9AD26825F0472400418680 /* Place+CoreDataClass.swift in Sources */,
 				2F4E13A525ED72770061F1B7 /* ViewController.swift in Sources */,
 				2F4E13A125ED72770061F1B7 /* AppDelegate.swift in Sources */,
+				2F9AD26625F0472400418680 /* Note+CoreDataClass.swift in Sources */,
 				2F4E13AB25ED72770061F1B7 /* CWC_Guidebook_App_CoreData.xcdatamodeld in Sources */,
 				2FF39B4A25EEB56800971971 /* PlaceTableViewCell.swift in Sources */,
-				2F4E13D625ED81CB0061F1B7 /* Note+CoreDataProperties.swift in Sources */,
+				2F9AD26725F0472400418680 /* Note+CoreDataProperties.swift in Sources */,
+				2F9AD26925F0472400418680 /* Place+CoreDataProperties.swift in Sources */,
+				2F9AD26D25F047A500418680 /* AddNoteViewController.swift in Sources */,
 				2F4E13BF25ED740E0061F1B7 /* PlaceViewController.swift in Sources */,
 				2F4E13C825ED77900061F1B7 /* NotesViewController.swift in Sources */,
-				2F4E13D425ED81CB0061F1B7 /* Place+CoreDataProperties.swift in Sources */,
-				2F4E13D325ED81CB0061F1B7 /* Place+CoreDataClass.swift in Sources */,
 				2F4E13C225ED77590061F1B7 /* InfoViewController.swift in Sources */,
 				2F4E13A325ED72770061F1B7 /* SceneDelegate.swift in Sources */,
-				2F4E13D525ED81CB0061F1B7 /* Note+CoreDataClass.swift in Sources */,
 				2F4E13C525ED77710061F1B7 /* MapViewController.swift in Sources */,
 				2F4E13CC25ED794B0061F1B7 /* Constants.swift in Sources */,
 			);
