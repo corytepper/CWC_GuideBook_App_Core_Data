@@ -8,9 +8,17 @@
 import UIKit
 import CoreData
 
+protocol AddNoteDelegate {
+    
+    func noteAdded()
+    
+}
+
 class AddNoteViewController: UIViewController {
     
     // MARK: - Variables and Properties
+    
+    var delegate:AddNoteDelegate?
     
     private let appDelegate = UIApplication.shared.delegate as! AppDelegate
     
@@ -64,6 +72,9 @@ class AddNoteViewController: UIViewController {
         
         // Save the core data context
         appDelegate.saveContext()
+        
+        // Let the delegate know that the note was added
+        delegate?.noteAdded()
         
         // Dismiss the popup
         dismiss(animated: true, completion: nil)
